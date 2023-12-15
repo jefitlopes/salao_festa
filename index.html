@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./src/styles/style.css" />
+		<link rel="stylesheet" href="./src/styles/reset.css" />
+		<link rel="stylesheet" href="./src/styles/index.css" />
 		<style>
 			@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:ital,wght@0,300;1,400&display=swap");
 		</style>
@@ -11,49 +12,79 @@
 	</head>
 	<body>
 		<header>
-			<div class="header-title">
-				<h1>Salão da Zuza</h1>
-				<p>Bem vindo ao salão da Zuza - Sua festa sem bagunça!</p>
+			<div class="header-container">
+				<div class="header-title">
+					<img
+						src="./src/assets/logo-salao-zuza.png"
+						alt="logotipo do salão da Zuza"
+						class="header-img"
+					/>
+				</div>
+				<div class="menu-container">
+					<menu>
+						<ul>
+							<li>
+								<a href="./src/Pages/contato.html">Contato</a>
+							</li>
+							<li>
+								<a href="./src/Pages/sobre.html">Sobre</a>
+							</li>
+						</ul>
+					</menu>
+				</div>
 			</div>
 		</header>
 		<main>
 			<section>
+				<p class="paragraph_header">
+					Bem vindo ao salão da Zuza - Sua festa sem bagunça!
+				</p>
 				<div>
 					<h2>Agenda do mês</h2>
 					<ul>
 						<li>
 							<h3>Casamento Maria José e José Maria</h3>
-                            <p>09/12/2023</p>
+							<p>09/12/2023</p>
 							<img
 								src="./src/assets/noiva-e-noivo-cortando-o-lindo-bolo-de-casamento-branco.jpg"
 								alt="Noivos cortando o bolo de casamento"
 								class="wedding"
 							/>
-							<a href="https://api.whatsapp.com/">Confirmar presença</a>
+							<a href="/src/Pages/casamento.html">Confira</a>
 						</li>
 						<li>
 							<h3>Aniversário do Juqinha</h3>
-                            <p>10/12/2023</p>
+							<p>10/12/2023</p>
 							<img
 								src="./src/assets/meus-melhores-amigos-sempre-se-lembram-do-meu-aniversario.jpg"
-								alt="Noivos cortando o bolo de casamento"
+								alt="Aniversário de criança"
 								class="birthday"
 							/>
-							<a href="https://api.whatsapp.com/">Confirmar presença</a>
+							<a href="/src/Pages/aniversario.html">Confira</a>
 						</li>
 						<li>
 							<h3>Festa da Firma</h3>
-                            <p>13/12/2023</p>
+							<p>13/12/2023</p>
 							<img
 								src="./src/assets/comemorando-um-grupo-de-amigos.jpg"
-								alt="Noivos cortando o bolo de casamento"
+								alt="Pessoas comemorando em uma festa"
 								class="party"
 							/>
-							<a href="https://api.whatsapp.com/">Confirmar presença</a>
+							<a href="/src/Pages/festa.html">Confira</a>
 						</li>
 					</ul>
 				</div>
 			</section>
 		</main>
+		<footer>
+			<div class="contact-container">
+				<a href="/src/Pages/contato.html"
+					>Entre em contato conosco clicando aqui!</a
+				>
+			</div>
+			<div>
+				<p>Site desenvolvido por Jefit Lopes</p>
+			</div>
+		</footer>
 	</body>
 </html>
