@@ -22,14 +22,9 @@
 				</div>
 				<div class="menu-container">
 					<menu>
-						<ul>
-							<li>
-								<a href="/sobre.html">Sobre</a>
-							</li>
-							<li>
-								<a href="/index.html">Home</a>
-							</li>
-						</ul>
+						<a href="../Pages/sobre.html">Sobre</a>
+
+						<a href="../../index.html">Home</a>
 					</menu>
 				</div>
 			</div>
@@ -37,13 +32,24 @@
 		<main>
 			<section>
 				<div>
+					<p class="form-title">Entre em contato conosco</p>
 					<form action="">
-						<p>Entre em contato conosco</p>
+						<label for="nome">Nome: </label>
 						<input type="text" placeholder="Nome completo" />
+						<label for="email">Email: </label>
 						<input type="text" placeholder="Email" />
-						<textarea name="" id="" cols="30" rows="5"></textarea>
-						<button type="submit">Enviar</button>
+						<label for="mensagem">Mensagem: </label>
+						<textarea
+							name=""
+							id=""
+							cols="30"
+							rows="5"
+							placeholder="Digite sua mensagem..."
+						></textarea>
 					</form>
+					<div class="button-container">
+						<button type="submit">Enviar</button>
+					</div>
 				</div>
 			</section>
 		</main>

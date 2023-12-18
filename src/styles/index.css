@@ -53,9 +53,9 @@ header {
 	width: 300px;
 }
 
-.menu-container menu ul li {
-	border-bottom: none;
-	margin-bottom: 0;
+.menu-container menu {
+	display: flex;
+	gap: 30px;
 }
 
 main {
@@ -65,7 +65,7 @@ main {
 	justify-content: center;
 	font-family: Poppins;
 	height: calc(100vh - 310px);
-	width: 100vw;
+	width: 60vw;
 }
 
 .paragraph_header {
